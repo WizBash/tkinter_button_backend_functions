@@ -1,5 +1,6 @@
 from tkinter import*
 
+#============vutton function=================
 def press():
   label.config(text='button clicked')
 
