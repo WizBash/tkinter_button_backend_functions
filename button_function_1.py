@@ -16,8 +16,10 @@ label=Label(text='not clicked')
 label.grid(row=2,column=1)
 
 btn2=Button(width=10,text='Button 2',command=press2)
-Btn.grid(row=3, column=1)
+Btn2.grid(row=3, column=1)
 
+btn3=Button(width=10,text='Button 2',command=exit,bg='red',fg='black')
+Btn3.grid(row=4, column=1)
 
 
 maainloop()
